@@ -17,6 +17,7 @@ composer require haythem/marks-slider
                         MarksSlider::make("Marks Slider", "custom_field")
                             ->setValues(['Not Likely' => 0, 'Maybe' => 2, 'Very likely' => 4])
                             ->setStep(2)
+                            ->initialValue(4) //this will set the default value if there is nothing on the database.
                             ->showLabels(true),
               ];
         }

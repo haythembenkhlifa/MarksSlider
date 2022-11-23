@@ -57,4 +57,18 @@ class MarksSlider extends Field
             'showLabels' => $show,
         ]);
     }
+
+
+    /**
+     * Set initial value.
+     * 
+     * @param mixed $initial_value
+     * @return $this 
+     */
+    public function initialValue($initial_value)
+    {
+        return $this->withMeta([
+            'initialValue' => $initial_value,
+        ]);
+    }
 }
