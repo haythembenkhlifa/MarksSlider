@@ -11,6 +11,7 @@
         id="temp"
         name="temp"
         list="range_list"
+        @input="handleChange"
         class="w-full"
         v-model="value"
         :min="min()"
@@ -123,6 +124,17 @@ datalist {
 option {
   padding: 0;
   text-align: center;
+  /* margin-top: 20px; */
   transform: rotate(-90deg);
+}
+
+/* Medium devices (landscape tablets, 768px and less) */
+@media only screen and (max-width: 768px) {
+  option {
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    transform: rotate(0deg);
+  }
 }
 </style>
