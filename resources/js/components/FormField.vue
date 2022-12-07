@@ -124,8 +124,9 @@ datalist {
 option {
   padding: 0;
   text-align: center;
-  /* margin-top: 20px; */
-  height: 70px;
+  /* margin-top: 20px;*/
+  height: 50px;
+  /* max-height: 20px; */
   transform: rotate(-90deg);
 }
 
@@ -135,6 +136,7 @@ option {
     padding: 0;
     text-align: left;
     margin-top: 20px;
+    min-height: 0px;
     height: auto;
     transform: rotate(0deg);
   }
