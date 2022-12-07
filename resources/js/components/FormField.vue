@@ -125,6 +125,7 @@ option {
   padding: 0;
   text-align: center;
   /* margin-top: 20px; */
+  height: 70px;
   transform: rotate(-90deg);
 }
 
@@ -132,8 +133,9 @@ option {
 @media only screen and (max-width: 768px) {
   option {
     padding: 0;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
+    height: auto;
     transform: rotate(0deg);
   }
 }
